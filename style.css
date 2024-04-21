@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.one{
+  width:100%;
+  height: 3000px;
+  background: #222;
+}
+.five{
+  color: blue;
+}
+.seven{
+  margin-left: 700px;
+}
+.nine{
+  padding-left: 20px;
+}
+header{
+  padding: 40px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.three{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.three i{
+  height: 45px;
+  width:45px;
+  background-color: #007ced;
+  border-radius: 50%;
+  color:#fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.two{
+  width: 220px;
+  height: 240px;
+  border-radius: 10%;
+  border: 15px solid #444;
+  border-color: lightblue;
+}
+.eigth{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.eight h2{
+  padding-top: 20px;
+  color: white;
+}
+.eight h1{
+  padding-top: 10px;
+  color: blue;
+}
+.eight p{
+  color:white
+}
+.four .Download{
+  border-radius: 20px;
+  border: 1px solid lightblue;
+  padding: 15px;
+  color: beige;
+}
+.four .Contact{
+  border-radius: 20px;
+  border: 1px solid lightblue;
+  padding: 15px;
+  color: beige;
+}
+.Download:hover{
+  background-color: gray;
+}
+.Contact:hover{
+  background-color: gray;
+}
+.calculator{
+  padding-top: 50px;
+}
+.projects{
+  text-align: left;
+  font-size: 30px;
+  color: blue;
+  display: inline-block;
+  height: 50px;
+  width: 50%;
+}
+.figma{
+  padding-top: 50px;
+  text-align: left;
+  font-size: 30px;
+  display: inline-block;
+  height: 50px;
+  width: 30%;
+}
+.skills{
+  color: blue;
+  font-size: 20px;
+}
+table{
+  color: white;
+}
